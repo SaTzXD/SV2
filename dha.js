@@ -82,7 +82,7 @@ let setting = JSON.parse(fs.readFileSync('./setting.json'))
 owner = setting.owner
 gamewaktu = setting.gamewaktu
 petik = '```'
-fake = 'CREATOR BOT\©KurrXd'//GANTI NAMA KAMU BEP
+fake = 'CREATOR BOT\SatzXD'//GANTI NAMA KAMU BEP
 ban =[]
 
 // Database
@@ -837,7 +837,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
         case 'menu':
         case 'help':
-        menu =`Hai Kak.....\n*${pushname}*\n\`\`\`Saya Sherlynn-Botz,SENANG BISA BERTEMU DENGANMU HARI INI\`\`\`
+        menu =`Hai Kak.....\n*${pushname}*\n\`\`\`Saya Satz-Botz,SENANG BISA BERTEMU DENGANMU HARI INI\`\`\`
         
 𝗜𝗡𝗙𝗢 𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔 𝗕𝗢𝗧
 ❏ NAMA : *${pushname}*
@@ -846,10 +846,10 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 ❏ LIMIT : *${isPremium ? 'Unlimited' : `${gcount}`}*
 
 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
-❏ NAMA : *Sherlynn-Botz*
-❏ API : @6281220670449
-❏ OWNER : *©KurrXd*
-❏ API : *@6281220670449*
+❏ NAMA : *Satz-Botz*
+❏ API : @6289644355446
+❏ OWNER : *SatzXD*
+❏ API : *@6289644355446*
 ❏ AKTIF : *${runtime(process.uptime())}*
 ❏ BATERAI : *${baterai}%*
 ❏ PREIFIX : *『${prefix}』*
@@ -1093,14 +1093,14 @@ Makernya banyak tu kalian masukan aja namanya sendiri
 *き⃟🦈 ${prefix}babi*
 *き⃟🦈 ${prefix}cekganteng*
 *き⃟🦈 ${prefix}cekcantik*
-©𝑪𝒓𝒆𝒂𝒕𝒐𝒓 ©kurrtod`
+©𝑪𝒓𝒆𝒂𝒕𝒐𝒓 SatzXD`
                buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: '𝗔𝗟𝗟 𝗠𝗘𝗡𝗨'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: '𝗥𝗨𝗟𝗘𝗦'},type:1},{buttonId:`${prefix}store`,buttonText:{displayText:'SIMPLE BUTTON MENU'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '\`\`\`MAU BELI SC INI HUBUNGIN KURRXD WA 6281220670449\`\`\`', imageMessage: imageMsg,
+               footerText: '\`\`\`MAU BELI SC INI HUBUNGIN SATZXD WA 6289644355446\`\`\`', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1684,10 +1684,10 @@ HARGA PERMANEN:~25k~ PROMO!!! *10K* MINAT? HUBUNGI OWNER`
               break             
 //------------------< bayar menu >-------------------  
 case 'bayar':
-gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+gopeynya = 'https://e.top4top.io/p_2115i0oio0.jpg'
 teksnya = ` *「PAYMENT」*
 • GOPAY : scan diatas
-• DANA : 081220670449
+• DANA : 089644355446
 • OVO : scan diatas
 • QRISS DI ATAS 
 ━━━━━━━━━━━━━━━━━━━━`
